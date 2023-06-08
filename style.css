@@ -1,0 +1,142 @@
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background-color: rgb(249, 239, 233);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    flex: none;
+    font-size: large;
+}
+
+.content{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer{
+    flex-shrink: 0;
+}
+
+.bookContainer{
+    font-size: 25px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+    border: 3px solid rgb(65, 38, 38);
+    border-radius: 15px;
+    background-color: rgb(229, 185, 185);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstRow{
+    align-self: flex-end;
+}
+
+.lastRow{
+    display: flex;
+    gap: 7px;
+
+}
+
+.lastButton{
+    width: 30px;
+    height: 30px;
+}
+
+.xButton{
+    width: 30px;
+    height: 30px;
+}
+
+
+.lastButtonNew{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(38, 226, 38);
+    border: 1px solid rgb(46, 86, 16);
+}
+
+.openButton{
+    font-size: 30px;
+    border: 2 px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.openButton:hover{
+    font-size: 30px;
+    border: 2 px solid rgb(134, 134, 134);
+    background-color: rgb(191, 191, 191);
+}
+
+.popUp{
+    font-size: 30px;
+    width: 400px;
+    height: 620px;
+    border: 5px solid rgb(46, 46, 44);
+    background-color: rgb(221, 189, 173);;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.closeButton{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.closeButton:hover{
+    border: 2 px solid rgb(134, 134, 134);
+    background-color: rgb(191, 191, 191);
+}
+
+.saveButton{
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    padding: 5px;
+}
+.saveButton:hover{
+    font-size: 30px;
+    border: 2 px solid rgb(134, 134, 134);
+    background-color: rgb(191, 191, 191);
+}
+
+.closeButtonDiv{
+    align-self: flex-end;
+}
+
+input{
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.yourBook{
+    font-size: 33px;
+    font-weight: 800;
+}
